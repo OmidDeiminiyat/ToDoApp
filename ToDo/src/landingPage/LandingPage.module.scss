@@ -1,0 +1,25 @@
+ul{
+    max-height: 60%;
+    overflow: auto;
+    position: relative;
+    top: 10%;
+    margin: 0 9px 0 9px;
+    padding: 0;
+    li{
+        list-style: none;
+        text-decoration: underline;
+        text-align: left;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+            .spans{
+                width: 10px;
+                color: red;
+                font-size: 4px;
+                font-family: "Indie Flower", cursive;
+
+            }
+        
+       
+    }
+}

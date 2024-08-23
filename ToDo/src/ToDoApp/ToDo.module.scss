@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import './../Helper/animation.module.scss';
+.header{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    h3{
+        text-decoration: underline;
+    }
+}
+.TodoList {
+    text-align: center;
+    color: #1E1E1E;
+    font-family: "Indie Flower", cursive;
+    animation: slideIn 2s ease-out;
+}
+
+.Form {
+    position: absolute;
+    width: 100%;
+    input{
+        width: 50%;
+        
+    }
+}
+
+
